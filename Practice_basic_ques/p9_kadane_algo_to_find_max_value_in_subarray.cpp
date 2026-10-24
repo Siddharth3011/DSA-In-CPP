@@ -1,3 +1,5 @@
+//we are finding maximum subarray from an array
+
 #include<bits/stdc++.h>
 using namespace std;
 
