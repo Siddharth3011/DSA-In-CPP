@@ -1,3 +1,5 @@
+//iss question mein hme given array ko reverse krna hai
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -20,3 +22,6 @@ int main(){
     cout<<endl;
     return 0;
 }
+
+//isme concept ye hai ki ham two pointer approach lgayenge aur jb tk hmara right wala value bda hai aur equal hai tb tk aar[l] aur arr[r] ko swap krte rahenge.
+//ise direct built in funtion ka use kr bhi kiya jaa skta hai: reverse(arr, arr+n) aur vector ke liye reverse(vec.begin(), vec.end()).

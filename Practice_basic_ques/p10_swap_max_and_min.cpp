@@ -1,3 +1,5 @@
+//iss question mein hame jo max value hai pure array mein use aur jo min value hai pure array mein un dono ko swap krna hai.
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -29,3 +31,5 @@ int main(){
     }
     cout<<endl;
 }
+
+//iss question mein hamne 2 variables bnaye hai max aur min fir dono mein max value pure array ka aur min value pure array ka use store kra denge fir ek loop run kr dono ke index find kr dono values ko swap kr denge
