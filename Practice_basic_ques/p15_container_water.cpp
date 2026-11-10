@@ -29,4 +29,10 @@ int main(){
     cout<<max_water(vec)<<endl;
 }
 
-//
+//iss question mein hme maxmum water kis container mein stores hoga means kin 2 index values ke bich mein store hoga. means iske liye hame 2 chize chahiye ek to width jo hme index ki differences se milega aur dusra height.
+//aab container mein jo water hai wo min height pr depend krta hai na ki bde wale pr. kyuki container mein utna heen pani store kiya jaa skta hai jitna container ke ek value ka min number ho. like index- 0, 8 pr 1 aur 7 hai to min height 1 hai.
+//to iss question mein ham two-pointer approach use krenge aur min height nikalenge.
+//aab hame min height pta lgani padegi ki wo kya hoga jis se maximum water store kiya jaa ske. iske liye ham height nikal lenge dono right wale aur left wale values ko compare kr.
+//lekin two-pointer approach to max times sorted array mein use hota hai jis se ham l ko badhate hai aur r ko km krta hai.
+//to yahan ham wahi min height wala concept use krenge.
+//ham yahan right wale value aur left wale value ko compare kr lenge agr l chhota hoga hoga to use badha denge agr r chhota hoga to use kam kr denge is se jo new index values aayegi uske min height ko fir w se multipliy kr conpare krenge ki aab maximum water stored kya nikal raha hai.

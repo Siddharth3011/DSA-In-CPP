@@ -18,6 +18,11 @@ using namespace std;
 //     return b;
 // }
 
+
+//iss question mein hme max profit nikalna hai jo stocks bech kr mila hoga, uske liye hme stock ko pehle buy krna hoga aur fir sell krna hoga. lekin sell kuch aise krna hoga ki jis price pr buy kiya gya hai uss se jyada price mein sell kiya jaye taki profit nikle, fir unme se heen jo max profit niklega wahi answer hoga.
+//iske liye hmara pehla method yahi hai ki ham buy wali price ko nikal len, aur kosis krenge ki buy wali price kam se kam ho. to ham use hr next wali value se compare krenge.
+//aur agr jo next value hai wo jyada hai hmare buy wale se to ham use buy wale price se minus kr lenge jis se hame profit mil jayega. isi profit ko ham agle profit se compare krte rahenge aur atlast hme hmara final answer mil jayega.
+
 /***************************************************** OR *************************************************************** */
 
 int max_gain(vector<int>vec){
@@ -37,3 +42,6 @@ int main(){
     cout<<max_gain(vec)<<endl;
 }
 
+
+//iss wale method mein ham wahi same heen kaam kr rahe hai but thoda different tarike se, built-in methods ka use kr, isme ham initially to first element ko store kr lenge fir use heen he element se compare krenge agr wo chhota hoga to use fir ham profit nikal lenge aur pichle profit se compare kr lenge.
+//agr best bda hua to ham use update kr denge minimum value se.
